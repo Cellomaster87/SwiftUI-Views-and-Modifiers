@@ -15,21 +15,21 @@ struct ContentView: View {
 //            .background(Color.red)
 //            .edgesIgnoringSafeArea(.all)
         
-//        Button("Hello World") {
-//            print(type(of: self.body))
-//            }
-//            .frame(width: 200, height: 200)
-//            .background(Color.red)
-        
-        Text("Hello World")
-            .padding()
+        Button("Hello World") {
+            print(type(of: self.body))
+            }
+            .frame(width: 200, height: 200)
             .background(Color.red)
-            .padding()
-            .background(Color.blue)
-            .padding()
-            .background(Color.green)
-            .padding()
-            .background(Color.yellow)
+        
+//        Text("Hello World")
+//            .padding()
+//            .background(Color.red)
+//            .padding()
+//            .background(Color.blue)
+//            .padding()
+//            .background(Color.green)
+//            .padding()
+//            .background(Color.yellow)
     }
 }
 
