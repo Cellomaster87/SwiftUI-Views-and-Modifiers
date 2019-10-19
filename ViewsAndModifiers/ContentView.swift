@@ -12,10 +12,13 @@ struct ContentView: View {
     @State private var useRedText = false
     
     var body: some View {
-        Button("Hello World") {
-            // flip the Boolean between true and false
-            self.useRedText.toggle()
-        }.foregroundColor(useRedText ? .red : .blue)
+        VStack {
+            Text("Gryffindor")
+                .blur(radius: 0)
+            Text("Hufflepuff")
+            Text("Ravenclaw")
+            Text("Slytherin")
+        }.blur(radius: 5)
     }
 }
 
