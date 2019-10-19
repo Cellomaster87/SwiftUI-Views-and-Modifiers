@@ -20,7 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		2D79FE95235B82E2003AEEAB /* Watermark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Watermark.swift; path = ../Views/Watermark.swift; sourceTree = "<group>"; };
+		2D79FE95235B82E2003AEEAB /* Watermark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Watermark.swift; sourceTree = "<group>"; };
 		2D79FE97235B8311003AEEAB /* ViewModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModifier.swift; sourceTree = "<group>"; };
 		2D79FE99235B8367003AEEAB /* GridStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridStack.swift; sourceTree = "<group>"; };
 		2D79FE9C235B8F09003AEEAB /* Challenge1.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Challenge1.swift; sourceTree = "<group>"; };
@@ -45,6 +45,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2D79FE9E235B9162003AEEAB /* Extra Views */ = {
+			isa = PBXGroup;
+			children = (
+				2D79FE97235B8311003AEEAB /* ViewModifier.swift */,
+				2D79FE95235B82E2003AEEAB /* Watermark.swift */,
+				2D79FE99235B8367003AEEAB /* GridStack.swift */,
+				2D79FE9C235B8F09003AEEAB /* Challenge1.swift */,
+			);
+			path = "Extra Views";
+			sourceTree = "<group>";
+		};
 		2D891BFF2359006A00C8CA85 = {
 			isa = PBXGroup;
 			children = (
@@ -64,10 +75,7 @@
 		2D891C0A2359006A00C8CA85 /* ViewsAndModifiers */ = {
 			isa = PBXGroup;
 			children = (
-				2D79FE97235B8311003AEEAB /* ViewModifier.swift */,
-				2D79FE95235B82E2003AEEAB /* Watermark.swift */,
-				2D79FE99235B8367003AEEAB /* GridStack.swift */,
-				2D79FE9C235B8F09003AEEAB /* Challenge1.swift */,
+				2D79FE9E235B9162003AEEAB /* Extra Views */,
 				2D891C0B2359006A00C8CA85 /* AppDelegate.swift */,
 				2D891C0D2359006A00C8CA85 /* SceneDelegate.swift */,
 				2D891C0F2359006A00C8CA85 /* ContentView.swift */,
